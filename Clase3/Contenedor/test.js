@@ -43,16 +43,16 @@ const main = async () => {
   console.log("------------------- obtener todos -------------------");
   console.log(await contenedor.getAll());
 
-  // borrar por id
-  console.log("------------------- borrar por id -------------------");
-  await contenedor.deleteById(1);
-  await contenedor.deleteById(1232134);
-  console.log(await contenedor.getAll());
+  // // borrar por id
+  // console.log("------------------- borrar por id -------------------");
+  // await contenedor.deleteById(1);
+  // await contenedor.deleteById(1232134);
+  // console.log(await contenedor.getAll());
 
   // borrar todo
   console.log("------------------- borrar todo -------------------");
-  await contenedor.deleteAll();
-  console.log(await contenedor.getAll());
+  // await contenedor.deleteAll();
+  // console.log(await contenedor.getAll());
 };
 
 main();
